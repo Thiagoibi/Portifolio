@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thiago Ibiapino | Sobre Mim</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style.css"> <!-- CSS global -->
+    <link rel="stylesheet" href="style/about.css"> <!-- CSS específico desta página -->
 </head>
 
 <body>
@@ -13,17 +14,57 @@
         <div class="cabecalho__menu">
             <a class="cabecalho__menu_link" href="index.html">Home</a>
             <a class="cabecalho__menu_link" href="about.html">Sobre mim</a>
-            <a class="cabecalho__menu_link" href="curriculo.html">Currículo</a>
         </div>
     </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Sobre mim:</h1>
-            <p class="apresentacao__conteudo__texto">Sou estudante na área de Ciência de Dados, com experiência na área de administração e vendas. Minha formação como assistente administrativo e meu conhecimento avançado em Excel me proporcionam habilidades sólidas em organização, análise de dados e comunicação eficaz.</p>
-            <p class="apresentacao__conteudo__texto">Atualmente, estou no 7º semestre do curso de Tecnólogo em Ciência de Dados na Fatec, complementado por cursos em Python, Power BI, entre outros. Busco uma oportunidade profissional que me permita crescer intelectualmente, tecnicamente e profissionalmente, contribuindo com a empresa a longo prazo.</p>
+
+    <main class="sobre">
+        <section class="sobre__descricao">
+            <h1 class="sobre__titulo">Sobre mim:</h1>
+            <p class="sobre__texto">
+                Sou estudante na área de Ciência de Dados, com experiência na área de administração e vendas. Minha formação como assistente administrativo e meu conhecimento avançado em Excel me proporcionam habilidades sólidas em organização, análise de dados e comunicação eficaz.
+            </p>
+            <p class="sobre__texto">
+                Atualmente, estou no 7º semestre do curso de Tecnólogo em Ciência de Dados na Fatec, complementado por cursos em Python, Power BI, entre outros. Busco uma oportunidade profissional que me permita crescer intelectualmente, tecnicamente e profissionalmente, contribuindo com a empresa a longo prazo.
+            </p>
         </section>
-        <img class="apresentacao__imagem" src="imgt/Captura de tela 2025-01-12 112356.png" alt="Foto de Thiago Ibiapino">
+
+        <section class="sobre__projetos">
+            <h1 class="sobre__projetos__titulo">Projetos:</h1>
+
+            <div class="projeto">
+                <h2 class="projeto__titulo">TelecomX_BR</h2>
+                <p class="projeto__descricao">Análise de Evasão de Clientes (Churn): Este projeto tem como objetivo analisar os fatores que influenciam a evasão de clientes (churn) em uma empresa de serviços, utilizando Python, Pandas, Matplotlib e Seaborn.</p>
+                <a class="projeto__link" href="https://github.com/Thiagoibi/TelecomX_BR" target="_blank">
+                    <img src="img/github.png" alt="GitHub"> GitHub
+                </a>
+            </div>
+
+            <div class="projeto">
+                <h2 class="projeto__titulo">Challenge Alura Store</h2>
+                <p class="projeto__descricao">Desafio que visa apoiar a decisão de qual loja da Alura Store deve ser vendida, com base em análise de dados.</p>
+                <a class="projeto__link" href="https://github.com/Thiagoibi/AluraStoreBr" target="_blank">
+                    <img src="img/github.png" alt="GitHub"> GitHub
+                </a>
+            </div>
+
+            <div class="projeto">
+                <h2 class="projeto__titulo">Challenge Amigo Secreto</h2>
+                <p class="projeto__descricao">Aplicação que sorteia amigos secretos de forma simples e prática com HTML, CSS e JavaScript.</p>
+                <a class="projeto__link" href="https://github.com/Thiagoibi/Challenge-amigo-secreto" target="_blank">
+                    <img src="img/github.png" alt="GitHub"> GitHub
+                </a>
+            </div>
+
+            <div class="projeto">
+                <h2 class="projeto__titulo">Jogo do Número Secreto</h2>
+                <p class="projeto__descricao">Projeto simples de sorteio de números aleatórios.</p>
+                <a class="projeto__link" href="https://github.com/Thiagoibi/Jogo-do-numero-secreto" target="_blank">
+                    <img src="img/github.png" alt="GitHub"> GitHub
+                </a>
+            </div>
+        </section>
     </main>
+
     <footer class="rodape">
         <p>Desenvolvido por Thiago.</p>
     </footer>
